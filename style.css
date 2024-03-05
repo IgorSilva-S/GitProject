@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #191919;
+}
+
+.flowDesigns {
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    background-color: #30303077;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.flow25 {
+    width: 24%;
+    height: 98%;
+    position: fixed;
+    left: 0.5%;
+    top: 1%;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.flow75 {
+    width: 74%;
+    height: 98%;
+    position: fixed;
+    right: 0.5%;
+    top: 1%;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
