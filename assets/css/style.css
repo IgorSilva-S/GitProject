@@ -239,7 +239,6 @@ footer {
 
 
 
-
 /*
 CSS DE ÁREAS ESPECÍFICAS
 */
@@ -748,7 +747,14 @@ CSS DE ÁREAS ESPECÍFICAS
     border-bottom:1px solid #CCC;
     outline:0;
     margin-top:10px;
+    transition-duration: .2s;
 }
+
+.section-contact input[type=text]:focus,
+.section-contact textarea:focus {
+    border-bottom:1px solid #B28756;
+}
+
 .section-contact textarea {
     height:100px;
     resize:none;
